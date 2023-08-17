@@ -1,0 +1,231 @@
+main{
+    color:$letras;
+    background-image: linear-gradient( rgba(9, 0, 10, 0.539),hwb(198 0% 22% / 0.756)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+ .container-fluid{
+        --bs-gutter-x: 0rem;
+     
+        
+        }
+       
+h1{
+    text-align: center;
+}
+ p{transition: all 3s;
+    &:hover{
+        cursor:none;
+        background-color: $fondo;
+        font-size: 20px;
+        text-decoration: solid;
+    }
+ }
+
+    .quien{
+        img{
+            height: 400px;
+            width: 300px;
+            padding: 30px
+        }
+        h1{
+            text-align: center;
+
+        }
+    }
+    .container-fluid{
+        --bs-gutter-x: 0rem;
+       
+    }
+
+    #carouselExampleCaptions{
+        height: 600px;
+        width: 400px;
+        justify-content: center;
+        }
+
+    .general{
+        height: 50em;
+    
+    .row{
+        align-items: center;
+        --bs-gutter-x: 0rem;
+        
+            
+            }
+
+        }
+    }
+ .row{
+        align-items: center;
+        --bs-gutter-x: 0rem;}
+ 
+.mb-3{
+    margin-left: 10px;
+    margin-right: 20%;
+   
+}
+
+
+    .input{
+        height: 30px;
+    transition: height 2s;
+    &:focus{
+        height: 40px;
+    }}
+
+  
+    
+    
+    .h1{
+        text-align: center;
+    }
+    .contacto{
+        img{
+            width: 50px;
+            height: 50px;
+
+        }
+    }
+    .btn-primary{
+        margin-left: 10px;
+     }
+     .button{
+        color:$letras;
+    }
+    .registro{
+        height: 20em;
+        padding-left: 10px;
+        margin-left: 10px;
+        img{
+            width: 50px;
+            height: 50px;
+            animation-duration: 10s;
+            animation-name: titilar;
+            animation-iteration-count: infinite;
+            transform: translateX(50%);
+        
+            @keyframes titilar {
+                0%{
+                    opacity: 10%;
+                    height: 50px;
+                    width: 50px;
+                }
+                10%{
+                    opacity:30%;
+                    height:60px;
+                    width:60px;}
+                20%{
+                        opacity:50%;
+                        height:70px;
+                        width:70px;
+                }
+                30%{
+                    opacity: 70%;
+                    height:100px;
+                    width: 100px;
+                }
+                40%{
+                    opacity:90%;
+                    height:150px;
+                    width:150px;
+
+                }
+                50%{
+                    opacity: 100%;
+                    height: 200px;
+                    width: 200px;
+                }
+                60%{
+                    opacity: 100%;
+                    height: 200px;
+                    width: 200px;
+                }
+                70%{
+                    opacity:90%;
+                    height:150px;
+                    width:150px;
+
+                }
+                80%{
+                    opacity: 70%;
+                    height:100px;
+                    width: 100px;
+
+                }
+                90%{opacity:50%;
+                    height:70px;
+                    width:70px;
+
+                }
+                    100%{
+                    opacity:50%;
+                    height:60px;
+                    width:60px;
+
+                }
+                }
+                
+            }
+        }
+        
+        
+        
+   
+        
+    
+    .form{
+        padding: 10px;
+        height: 26em;
+        input{
+            margin-right: 2em;
+        }
+        }
+        #emailHelp{
+            color: $letras;
+        }
+        .logo img{
+            width: 50px;
+            height: 50px;
+
+         
+        }
+        iframe{
+            height: 300px;
+            width: 80%;
+            margin-left: 50px;
+            margin-top: 10px;
+            border: 1px solid $letras;
+            justify-content: center;
+           
+        }
+   
+     .row{
+        a{
+                color: $letras;
+                text-align: center;
+        }
+        .if{
+            height:37em;
+
+        }
+    }    
+    
+    .col-sm-7{
+        iframe{
+            height: 300px;
+            width: 80%;
+            margin-left: 50px;
+            margin-top: 10px;
+            border: 1px solid $letras;
+            justify-content: center;
+        }
+    }
+    
+     
+
+
+
+
+
