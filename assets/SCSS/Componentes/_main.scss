@@ -1,10 +1,11 @@
 main{
     color:$letras;
-    background-image: linear-gradient( rgba(9, 0, 10, 0.767),hwb(198 0% 22% / 0.881)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
+    background-image: linear-gradient( rgba(9, 0, 10, 0.9),hwb(198 0% 22% / 0.9)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-color: #000;
+   
  .container-fluid{
         --bs-gutter-x: 0rem;
         }
@@ -12,11 +13,11 @@ main{
 h1{
     text-align: center;
 }
- p{transition: all 3s;
+ p{transition: all 2s;
     &:hover{
         cursor:none;
         background-color: $fondo;
-        font-size: 20px;
+        font-size: 16px;
         text-decoration: solid;
     }
  }
@@ -34,6 +35,8 @@ h1{
     }
     .container-fluid{
         --bs-gutter-x: 0rem;
+        border: solid 1px $letras;
+      
        
     }
 
@@ -195,7 +198,7 @@ h1{
             width: 80%;
             margin-left: 50px;
             margin-top: 10px;
-            border: 1px solid $letras;
+            border: 5px solid $letras;
             justify-content: center;
            
         }
@@ -218,7 +221,7 @@ h1{
             width: 80%;
             margin-left: 50px;
             margin-top: 10px;
-            border: 1px solid $letras;
+            border: 5px solid $letras;
             justify-content: center;
         }
     }
