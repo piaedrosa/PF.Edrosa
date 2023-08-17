@@ -12,8 +12,10 @@ footer{
         align-items: center;
 
     img{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
+    color:floralwhite;
+    
     }
 
     ul{
@@ -37,8 +39,3 @@ footer{
 }
 
 }
-@each $red, $color in $redes {
-    .#{$red}{
-        background-color:  $color;}
-    
-            }

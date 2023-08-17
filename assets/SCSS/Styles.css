@@ -3,26 +3,23 @@ header {
   background-color: #044967;
   color: Floralwhite;
   border: 1px solid Floralwhite;
-  display: flex;
   font-family: "Poppins";
   font-weight: 400px;
   margin: 0px;
   padding: 0px;
   width: 100%;
+  text-align: center;
+}
+header .navbar-toggler {
+  background-color: Floralwhite;
 }
 header img {
-  width: 50px;
-  height: 50px;
-  transform: translateX(50px);
-  transform: scale(1, 3, 1, 3);
-  transition: height 1s;
-}
-header img:hover {
-  height: 100px;
   width: 100px;
+  height: 100px;
 }
 header .nav-link {
   color: Floralwhite;
+  font-size: 20PX;
 }
 header .container-fluid {
   --bs-gutter-x: 0rem;
@@ -43,7 +40,7 @@ header .btn:hover {
 
 main {
   color: Floralwhite;
-  background-image: linear-gradient(rgba(9, 0, 10, 0.539), hwb(198 0% 22%/0.756)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
+  background-image: linear-gradient(rgba(9, 0, 10, 0.767), hwb(198 0% 22%/0.881)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -252,8 +249,9 @@ footer .row {
   align-items: center;
 }
 footer .row img {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
+  color: floralwhite;
 }
 footer .row ul {
   display: flex;
@@ -272,22 +270,6 @@ footer .row .container-fluid {
 footer .row .row {
   align-items: center;
   --bs-gutter-x: 0rem ;
-}
-
-.spotify {
-  background-color: #81b71a;
-}
-
-.instagram {
-  background-color: #F58529;
-}
-
-.youtube {
-  background-color: black;
-}
-
-.whatsapp {
-  background-color: #25D366;
 }
 
 body {
