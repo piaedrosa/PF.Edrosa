@@ -46,6 +46,10 @@ main {
   background-position: center;
   background-color: #000;
 }
+main .col-sm-6 {
+  display: flex;
+  justify-content: space-around;
+}
 main .container-fluid {
   --bs-gutter-x: 0rem;
 }
@@ -54,6 +58,7 @@ main h1 {
 }
 main p {
   transition: all 2s;
+  padding-right: 20px;
 }
 main p:hover {
   cursor: none;
@@ -65,7 +70,7 @@ main p:hover {
 main .quien img {
   height: 400px;
   width: 300px;
-  padding: 30px;
+  padding: 20px;
 }
 main .quien h1 {
   text-align: center;

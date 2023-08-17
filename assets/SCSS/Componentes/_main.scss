@@ -5,7 +5,10 @@ main{
     background-size: cover;
     background-position: center;
     background-color: #000;
-   
+ .col-sm-6{
+        display: flex;
+        justify-content: space-around;
+    }
  .container-fluid{
         --bs-gutter-x: 0rem;
         }
@@ -14,6 +17,7 @@ h1{
     text-align: center;
 }
  p{transition: all 2s;
+    padding-right: 20px;
     &:hover{
         cursor:none;
         background-color: $fondo;
@@ -26,7 +30,7 @@ h1{
         img{
             height: 400px;
             width: 300px;
-            padding: 30px
+            padding: 20px
         }
         h1{
             text-align: center;
@@ -54,6 +58,7 @@ h1{
         --bs-gutter-x: 0rem;
         padding-top: 100px;
         
+        
             
             }
 
@@ -61,7 +66,9 @@ h1{
     }
  .row{
         align-items: center;
-        --bs-gutter-x: 0rem;}
+        --bs-gutter-x: 0rem;
+       
+    }
  
 .mb-3{
     margin-left: 10px;
@@ -224,7 +231,9 @@ h1{
             border: 5px solid $letras;
             justify-content: center;
         }
-    }
+    
+        }
+    
     
      
 
