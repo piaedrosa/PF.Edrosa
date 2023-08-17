@@ -84,6 +84,7 @@ main .general {
 main .general .row {
   align-items: center;
   --bs-gutter-x: 0rem;
+  padding-top: 100px;
 }
 
 .row {
@@ -249,8 +250,8 @@ footer .row {
   align-items: center;
 }
 footer .row img {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
   color: floralwhite;
 }
 footer .row ul {
@@ -261,8 +262,8 @@ footer .row ul li {
   list-style-type: none;
 }
 footer .row ul li img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
 }
 footer .row .container-fluid {
   --bs-gutter-x: 0rem;
