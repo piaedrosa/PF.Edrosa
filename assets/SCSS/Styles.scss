@@ -50,9 +50,14 @@ body{
             .general{
                 height: auto;
                 font-size: 12px;
+        
                 
             }    
-        }
+            main .general .row {
+              align-items: center;
+              --bs-gutter-x: 0rem;
+              padding-top: 0px;
+        }}
 
 
 
