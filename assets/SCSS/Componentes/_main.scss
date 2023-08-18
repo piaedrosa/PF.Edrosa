@@ -11,8 +11,12 @@ main{
     }
  .container-fluid{
         --bs-gutter-x: 0rem;
+        
         }
-       
+.contacto{
+    height:33em;
+
+}
 h1{
     text-align: center;
 }
@@ -48,6 +52,7 @@ h1{
         height: 600px;
         width: 400px;
         justify-content: center;
+        
         }
 
     .general{
@@ -71,9 +76,13 @@ h1{
     }
  
 .mb-3{
-    margin-left: 10px;
+    margin-left: 50px;
     margin-right: 20%;
+    margin-bottom: 0px !important;
    
+}
+p{
+    margin-left: 50px;
 }
 
 
@@ -98,15 +107,14 @@ h1{
         }
     }
     .btn-primary{
-        margin-left: 10px;
+        margin-left: 50px;
+
      }
      .button{
         color:$letras;
     }
     .registro{
-        height: 20em;
-        padding-left: 10px;
-        margin-left: 10px;
+     
         img{
             width: 50px;
             height: 50px;
