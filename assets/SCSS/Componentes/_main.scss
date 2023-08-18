@@ -6,12 +6,26 @@ main{
     background-position: center;
     background-color: #000;
 .retrieve{
-    height:14em;
+    height:24em;
 }
- .col-sm-6{
+.col-sm-6{
         display: flex;
         justify-content: space-around;
     }
+.col-sm-4{
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    .azul{
+        margin-top: 15px;
+    }
+    
+}
+.col-sm-12{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 16px;
+}
  .container-fluid{
         --bs-gutter-x: 0rem;
         
@@ -22,6 +36,9 @@ main{
 }
 .login{
     height:7em;
+}
+.registro{
+    height: 32em;
 }
 h1{
     text-align: center;
@@ -78,13 +95,16 @@ h1{
  .row{
         align-items: center;
         --bs-gutter-x: 0rem;
-        
+    
     }
  
 .mb-3{
     margin-left: 50px;
     margin-right: 20%;
     margin-bottom: 0px !important;
+    .azul{
+        margin-top: 15px;
+    }
    
 }
 p{
@@ -114,89 +134,12 @@ p{
     }
     .btn-primary{
         margin-left: 50px;
+        ;
 
      }
      .button{
         color:$letras;
     }
-    .registro{
-     
-        img{
-            width: 50px;
-            height: 50px;
-            animation-duration: 10s;
-            animation-name: titilar;
-            animation-iteration-count: infinite;
-            transform: translateX(50%);
-        
-            @keyframes titilar {
-                0%{
-                    opacity: 10%;
-                    height: 50px;
-                    width: 50px;
-                }
-                10%{
-                    opacity:30%;
-                    height:60px;
-                    width:60px;}
-                20%{
-                        opacity:50%;
-                        height:70px;
-                        width:70px;
-                }
-                30%{
-                    opacity: 70%;
-                    height:100px;
-                    width: 100px;
-                }
-                40%{
-                    opacity:90%;
-                    height:150px;
-                    width:150px;
-
-                }
-                50%{
-                    opacity: 100%;
-                    height: 200px;
-                    width: 200px;
-                }
-                60%{
-                    opacity: 100%;
-                    height: 200px;
-                    width: 200px;
-                }
-                70%{
-                    opacity:90%;
-                    height:150px;
-                    width:150px;
-
-                }
-                80%{
-                    opacity: 70%;
-                    height:100px;
-                    width: 100px;
-
-                }
-                90%{opacity:50%;
-                    height:70px;
-                    width:70px;
-
-                }
-                    100%{
-                    opacity:50%;
-                    height:60px;
-                    width:60px;
-
-                }
-                }
-                
-            }
-        }
-        
-        
-        
-   
-        
     
     .form{
         padding: 10px;
@@ -208,12 +151,8 @@ p{
         #emailHelp{
             color: $letras;
         }
-        .logo img{
-            width: 50px;
-            height: 50px;
-
-         
-        }
+               
+        
         iframe{
             height: 300px;
             width: 80%;
