@@ -46,6 +46,9 @@ main {
   background-position: center;
   background-color: #000;
 }
+main .retrieve {
+  height: 14em;
+}
 main .col-sm-6 {
   display: flex;
   justify-content: space-around;
@@ -55,6 +58,9 @@ main .container-fluid {
 }
 main .contacto {
   height: 33em;
+}
+main .login {
+  height: 7em;
 }
 main h1 {
   text-align: center;
