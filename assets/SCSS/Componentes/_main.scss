@@ -1,10 +1,29 @@
+.fw-light {
+   font-family: 'poppins';
+   font-weight: 400;
+   color: #044967;
+   font-family: 'poppins';
+   
+}
+.text-body-secondary {
+    color: #044967 !important;
+    font-family: 'poppins';
+    
+}
+.bg-body-tertiary {
+    background-color: #044967 !important;
+}
+
 main{
-    color:$letras;
+    color:$letras; 
     background-image: linear-gradient( rgba(9, 0, 10, 0.9),hwb(198 0% 22% / 0.9)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #000;
+    background-color: #044967;
+} 
+
+
 .retrieve{
     height:24em;
 }
@@ -66,17 +85,19 @@ h1{
     }
     .container-fluid{
         --bs-gutter-x: 0rem;
-        border: solid 1px $letras;
+      
       
        
     }
 
-    #carouselExampleCaptions{
-        height: 600px;
-        width: 400px;
-        justify-content: center;
-        
-        }
+
+.atletas{
+    height:fit-content
+
+}
+.py-5 {
+    padding-bottom: 0px !important;
+}
 
     .general{
         height: 53em;
@@ -91,7 +112,7 @@ h1{
             }
 
         }
-    }
+    
  .row{
         align-items: center;
         --bs-gutter-x: 0rem;
@@ -174,7 +195,7 @@ p{
 
         }
     }    
-    
+   
     .col-sm-7{
         iframe{
             height: 300px;
@@ -184,7 +205,7 @@ p{
             border: 5px solid $letras;
             justify-content: center;
         }
-    
+   
         }
     
     

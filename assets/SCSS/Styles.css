@@ -1,4 +1,3 @@
-/*variables para practicar no va a quedar asi*/
 header {
   background-color: #044967;
   color: Floralwhite;
@@ -38,81 +37,113 @@ header .btn:hover {
   background-color: darkgoldenrod;
 }
 
+.fw-light {
+  font-family: "poppins";
+  font-weight: 400;
+  color: #044967;
+  font-family: "poppins";
+}
+
+.text-body-secondary {
+  color: #044967 !important;
+  font-family: "poppins";
+}
+
+.bg-body-tertiary {
+  background-color: #044967 !important;
+}
+
 main {
   color: Floralwhite;
   background-image: linear-gradient(rgba(9, 0, 10, 0.9), hwb(198 0% 22%/0.9)), url(../img/LOGOS/Imagotipo\ full\ color\ sin\ fondo.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #000;
+  background-color: #044967;
 }
-main .retrieve {
+
+.retrieve {
   height: 24em;
 }
-main .col-sm-6 {
+
+.col-sm-6 {
   display: flex;
   justify-content: space-around;
 }
-main .col-sm-4 {
+
+.col-sm-4 {
   font-size: 20px;
   padding-right: 15px;
   padding-left: 15px;
 }
-main .col-sm-4 .azul {
+.col-sm-4 .azul {
   margin-top: 15px;
 }
-main .col-sm-12 {
+
+.col-sm-12 {
   margin-top: 15px;
   margin-left: 20px;
   font-size: 16px;
 }
-main .container-fluid {
+
+.container-fluid {
   --bs-gutter-x: 0rem;
 }
-main .contacto {
+
+.contacto {
   height: 33em;
 }
-main .login {
+
+.login {
   height: 7em;
 }
-main .registro {
+
+.registro {
   height: 32em;
 }
-main h1 {
+
+h1 {
   text-align: center;
 }
-main p {
+
+p {
   transition: all 2s;
   padding-right: 20px;
 }
-main p:hover {
+p:hover {
   cursor: none;
   background-color: #044967;
   font-size: 16px;
   -webkit-text-decoration: solid;
           text-decoration: solid;
 }
-main .quien img {
+
+.quien img {
   height: 400px;
   width: 300px;
   padding: 20px;
 }
-main .quien h1 {
+.quien h1 {
   text-align: center;
 }
-main .container-fluid {
+
+.container-fluid {
   --bs-gutter-x: 0rem;
-  border: solid 1px Floralwhite;
 }
-main #carouselExampleCaptions {
-  height: 600px;
-  width: 400px;
-  justify-content: center;
+
+.atletas {
+  height: -moz-fit-content;
+  height: fit-content;
 }
-main .general {
+
+.py-5 {
+  padding-bottom: 0px !important;
+}
+
+.general {
   height: 53em;
 }
-main .general .row {
+.general .row {
   align-items: center;
   --bs-gutter-x: 0rem;
   padding-top: 100px;
@@ -203,6 +234,7 @@ footer {
   background-color: #044967;
   color: Floralwhite;
   padding: 0.5em;
+  border: 1px solid Floralwhite;
 }
 footer h6 {
   font-size: 10px;
